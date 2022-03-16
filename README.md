@@ -11,6 +11,8 @@ The purpose of this analysis was to use the features in a  dataset to create a b
 * What variable(s) are considered to be the features for your model?
 * What variable(s) are neither targets nor features, and should be removed from the input data?
 
+For my model, EIN, NAME, STATUS, and SPECIAL_CONSIDERATION columns are neither targets nor features and should be removed from the input data.
+
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
