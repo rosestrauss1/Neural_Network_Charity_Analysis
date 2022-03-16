@@ -8,7 +8,13 @@ The purpose of this analysis was to use the features in a  dataset to create a b
 
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
+
+IS_SUCCESSFUL is the target for my model.
+
 * What variable(s) are considered to be the features for your model?
+
+APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, INCOME_AMT, and ASK_AMT are features for my model.
+
 * What variable(s) are neither targets nor features, and should be removed from the input data?
 
 For my model, EIN, NAME, STATUS, and SPECIAL_CONSIDERATION columns are neither targets nor features and should be removed from the input data.
