@@ -4,7 +4,7 @@
 
 The purpose of this analysis was to use the features in a  dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
-## Results: Using bulleted lists and images to support your answers, address the following questions.
+## Results:
 
 ### Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
