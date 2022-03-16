@@ -13,9 +13,12 @@
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 * Were you able to achieve the target model performance?
+
 I was not able to achive the target model performance of 75%. The highest accuracy my model achieved was 72%.
 
 * What steps did you take to try and increase model performance?
+
+To increase my model's performance, I tried adding more hidden layers and changing my activation function. I also tried changing the number of epochs, and adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model. I dropped the following columns:'SPECIAL_CONSIDERATIONS' and 'STATUS'.
 
 ## Summary: 
 
