@@ -22,6 +22,10 @@ For my model, EIN, NAME, STATUS, and SPECIAL_CONSIDERATION columns are neither t
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
+For my model, I used four hidden layers and a few different activation functions: RELU, SELU, and SIGMOID. I chose to put in four hidden layers because
+
+<img width="857" alt="Screen Shot 2022-03-16 at 1 33 39 PM" src="https://user-images.githubusercontent.com/92963227/158685873-957f8d5e-3fe6-44e0-9d0f-42843d4612ee.png">
+
 * Were you able to achieve the target model performance?
 
 I was not able to achive the target model performance of 75%. The highest accuracy my model achieved was 72%.
