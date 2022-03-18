@@ -22,7 +22,7 @@ For my model, EIN, NAME, STATUS, and SPECIAL_CONSIDERATION columns are neither t
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-For my model, I used four hidden layers and a few different activation functions: RELU, SELU, and SIGMOID. I chose to put in four hidden layers because
+For my model, I used four hidden layers and a few different activation functions: RELU, SELU, and SIGMOID. I chose to put in four hidden layers to increase the theoretical maximum complexity of my model. I changed the activation function because SELU potentially negates the issue of vanishing or exploding gradients. As with adding a hidden layer, adding a neuron increases the theoretical maximum complexity of my model.
 
 <img width="857" alt="Screen Shot 2022-03-16 at 1 33 39 PM" src="https://user-images.githubusercontent.com/92963227/158685873-957f8d5e-3fe6-44e0-9d0f-42843d4612ee.png">
 
@@ -35,6 +35,5 @@ I was not able to achive the target model performance of 75%. The highest accura
 To increase my model's performance, I tried adding more hidden layers and changing my activation function. I also tried changing the number of epochs, and adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model. I dropped the following columns:'SPECIAL_CONSIDERATIONS' and 'STATUS'.
 
 ## Summary: 
-
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+The results of my deep learning model was a relativly low accuracy. To solve this classification problem, I would reccomend using a NEAT model that could evolve a better form.
 
